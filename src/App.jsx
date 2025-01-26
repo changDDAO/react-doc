@@ -1,5 +1,6 @@
 import './App.css'
 import SearchBar from "./components/SearchBar.jsx";
+import ProductTable from "./components/ProductTable.jsx";
 
 function App() {
     const PRODUCTS = [
@@ -14,6 +15,7 @@ function App() {
     return (
         <>
             <SearchBar/>
+            <ProductTable products={PRODUCTS}/>
         </>
     );
 
