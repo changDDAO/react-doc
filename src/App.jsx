@@ -2,6 +2,9 @@ import './App.css'
 import SearchBar from "./components/SearchBar.jsx";
 import ProductTable from "./components/ProductTable.jsx";
 import FilterableProductTable from "./components/FilterableProductTable.jsx";
+import Profile from "./components/Profile.jsx";
+import Gallery from "./components/Gallery.jsx";
+import Bio from "./components/Bio.jsx";
 
 function App() {
     const PRODUCTS = [
@@ -15,7 +18,9 @@ function App() {
 
     return (
         <>
-            <FilterableProductTable products={PRODUCTS}/>
+            {/*<FilterableProductTable products={PRODUCTS}/>*/}
+            {/*<Gallery/>*/}
+            <Bio/>
         </>
     );
 
