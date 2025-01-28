@@ -7,9 +7,10 @@ import Gallery from "./components/Gallery.jsx";
 import Bio from "./components/Bio.jsx";
 import {people} from "./components/data.js";
 import {getImageUrl} from "./components/utils.js";
+import Button from "./components/Button.jsx";
 
 function App() {
-    const PRODUCTS = [
+    /*const PRODUCTS = [
         {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
         {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
         {category: "Fruits", price: "$2", stocked: false, name: "Passionfruit"},
@@ -29,14 +30,15 @@ function App() {
             {` ${person.profession} known for ${person.accomplishment}`}
         </p>
     </li>
-    )
+    )*/
 
     return (
         <>
             {/*<FilterableProductTable products={PRODUCTS}/>*/}
             {/*<Gallery/>*/}
             {/*<Bio/>*/}
-            <ul>{listItems}</ul>
+            {/*<ul>{listItems}</ul>*/}
+            <Button/>
         </>
     );
 
