@@ -1,6 +1,7 @@
 import './App.css'
 import SearchBar from "./components/SearchBar.jsx";
 import ProductTable from "./components/ProductTable.jsx";
+import FilterableProductTable from "./components/FilterableProductTable.jsx";
 
 function App() {
     const PRODUCTS = [
@@ -14,8 +15,7 @@ function App() {
 
     return (
         <>
-            <SearchBar/>
-            <ProductTable products={PRODUCTS}/>
+            <FilterableProductTable products={PRODUCTS}/>
         </>
     );
 
