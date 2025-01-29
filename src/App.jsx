@@ -8,6 +8,8 @@ import Bio from "./components/Bio.jsx";
 import {people} from "./components/data.js";
 import {getImageUrl} from "./components/utils.js";
 import Button from "./components/Button.jsx";
+import AlertButton from "./components/AlertButton.jsx";
+import ToolBar from "./components/ToolBar.jsx";
 
 function App() {
     /*const PRODUCTS = [
@@ -38,7 +40,8 @@ function App() {
             {/*<Gallery/>*/}
             {/*<Bio/>*/}
             {/*<ul>{listItems}</ul>*/}
-            <Button/>
+            {/*<Button/>*/}
+            <ToolBar/>
         </>
     );
 
